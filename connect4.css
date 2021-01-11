@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Amatic SC', cursive;
+  background-color: #9ba4b4;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #14274e;
+}
+
+label {
+  color: #14274e;
+  font-size: 1.6rem;
+  margin-left: 0.5rem;
+}
+
+.player2 {
+  margin-bottom: 1rem;
+}
+
+#winner {
+  font-size: 2rem;
+  color: #14274e;
+  margin-top: 1rem;
+}
+
+#start {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #14274e;
+  background-color: #f1f6f9;
+  border: #f1f6f9;
+  border-radius: 5px;
+  padding: 0.7rem;
+}
+
+#board td {
+  width: 50px;
+  height: 50px;
+  border: solid 2px #14274e;
+}
+
+.piece {
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+#column-top td {
+  border: dashed 1px #f1f6f9;
+}
+
+#column-top td:hover {
+  background-color: #14274e;
+}
